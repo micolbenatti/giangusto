@@ -17,10 +17,10 @@
     <footer class="footer">
         <div class="footer-left">
           <h3>Consulta il manuale</h3>
-          <button class="manuale-btn">CLICCA QUI</button>
+          <a class="manuale-btn" href="../public/manuale.pdf">CLICCA QUI</a>
         </div>
 
-        <img src="./assets/gian.png" alt="Mascotte GianGusto" class="footer-img" />
+        <img src="./assets/gian.png" alt="Mascotte GianGusto" class="footer-img"/>
     </footer>
 
   </div>
@@ -50,16 +50,6 @@ const chatVisibile = ref(false)
   z-index: 50;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
-}
-
-.link {
-  text-decoration: none;
-  color: var(--primary);
-  transition: color 0.2s ease;
-}
-
-.link:hover {
-  color: var(--secondary);
 }
 
 .logo {
@@ -101,7 +91,6 @@ const chatVisibile = ref(false)
   border-radius: 10px;
   padding: 0.75rem 2rem;
   font-size: 0.9rem;
-  cursor: pointer;
   transition: background-color 0.2s ease;
   text-transform: uppercase;
 }

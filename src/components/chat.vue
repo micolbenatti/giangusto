@@ -128,7 +128,6 @@
     font-size: 0.85rem;
     border-radius: 9999px;
     border: none;
-    cursor: pointer;
     transition: background-color 0.2s ease;
   }
   
