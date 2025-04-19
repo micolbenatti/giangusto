@@ -17,7 +17,7 @@
     <footer class="footer">
         <div class="footer-left">
           <h3>Consulta il manuale</h3>
-          <a class="manuale-btn" href="../public/manuale.pdf">CLICCA QUI</a>
+          <a class="manuale-btn" href="/manuale.pdf">CLICCA QUI</a>
         </div>
 
         <img src="./assets/gian.png" alt="Mascotte GianGusto" class="footer-img"/>
