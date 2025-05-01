@@ -5,29 +5,17 @@
         Ciao, come posso aiutarti?
       </h1>
 
-      <div class="form">
-        <input
-          type="text"
-          placeholder="Scrivi qui"
-          v-model="messaggio"
-          class="campo"
-        />
-        <button class="bottone" @click="inviaMessaggio">Invia</button>
-      </div>
+        <button class="bottone" @click="apriChat">Apri la chat</button>
     </div>
   </div>
 </template>
 
 <script setup>
-import { ref } from 'vue'
+  const emit = defineEmits(['apri-chat'])
 
-const messaggio = ref('')
-const emit = defineEmits(['apri-chat'])
-
-function inviaMessaggio() {
-  if (!messaggio.value.trim()) return
-  emit('apri-chat') 
-}
+  function apriChat() {
+    emit('apri-chat')
+  }
 </script>
 
 <style scoped>
@@ -48,45 +36,22 @@ function inviaMessaggio() {
 }
 
 .titolo {
-  font-size: 1.7rem;
+  font-size: 2.5rem;
   font-weight: 700;
   text-transform: uppercase;
 }
-
-.form {
-  display: flex;
-  border: 1px solid var(--primary);
-  border-radius: 100px;
-  overflow: hidden;
-  width: 100%;
-  max-width: 320px;
-}
-
-.form:hover {
-  border: 1px solid var(--secondary);
-}
-
-.campo {
-  flex: 1;
-  padding: 0.5rem 1rem;
-  border: none;
-  outline: none;
-  background-color: transparent;
-  color: #2c1b13;
-  font-size: 0.875rem;
-}
-
 .bottone {
   background-color: var(--primary);
   color: white;
   font-weight: 600;
-  padding: 0.5rem 1.5rem;
-  font-size: 0.875rem;
+  letter-spacing: 0.5px;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
   border: none;
-  border-top-right-radius: 100px;
-  border-bottom-right-radius: 100px;
+  border-radius: 20px;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
+  text-transform: uppercase;
 }
 
 .bottone:hover {

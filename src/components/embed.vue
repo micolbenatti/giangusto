@@ -23,16 +23,17 @@
   }
   
   .chat-box {
-    width: 360px;
-    height: 460px;
-    background-color: white;
+    width: 500px;
+    height: 500px;
+    background-color: #fdf4ee;
     border-radius: 20px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    border: 1px solid #e2d6cc;
+    border: 1px solid #fdf4ee;
     position: relative;  /* RICORDA: necessario per posizionare la X */
+    padding:10px;
   }
 
   .chiudi {
@@ -52,6 +53,5 @@
   color: var(--secondary);
 }
 
-  
 </style>
   

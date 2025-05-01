@@ -3,7 +3,7 @@
     <header class="header">
       <router-link to="/menu" class="link">Menù</router-link>
 
-      <router-link to="/" class="logo"><img src="./assets/logo.png" alt="Logo GianGusto" class="logo-img"></router-link>
+      <router-link to="/" class="logo"><img src="/logo.png" alt="Logo GianGusto" class="logo-img"></router-link>
 
       <router-link to="/contatti" class="link">Contatti</router-link>
     </header>
@@ -20,7 +20,7 @@
           <a class="manuale-btn" href="/manuale.pdf">CLICCA QUI</a>
         </div>
 
-        <img src="./assets/gian.png" alt="Mascotte GianGusto" class="footer-img"/>
+        <img src="/gian.png" alt="Mascotte GianGusto" class="footer-img"/>
     </footer>
 
   </div>
