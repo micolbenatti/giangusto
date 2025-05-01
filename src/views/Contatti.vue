@@ -16,7 +16,7 @@
 
     <!-- Linea decorativa con icone -->
     <div class="w-full bg-[#d98858] py-2 flex justify-center overflow-hidden">
-      <img src="../assets/icone.png" alt="Icone Divider" class="h-10 object-contain" />
+      <img src="/icone.png" alt="Icone GianGusto" class="object-contain" />
     </div>
 
 
