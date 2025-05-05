@@ -1,7 +1,7 @@
 <template>
-  <div class="min-h-[calc(100vh-15rem)] flex flex-col items-center py-10 text-center">
+  <div class="min-h-[calc(100vh-15rem)] flex flex-col items-center py-20 text-center">
 
-    <h1 class="text-2xl md:text-3xl font-bold uppercase leading-tight p-8">
+    <h1 class="text-2xl md:text-3xl font-bold uppercase leading-tight p-10">
       Come contattare l'ufficio di Giangusto
     </h1>
 
@@ -16,12 +16,12 @@
 
     <!-- Linea decorativa con icone -->
     <div class="w-full bg-[#d98858] py-2 flex justify-center overflow-hidden">
-      <img src="/icone.png" alt="Icone GianGusto" class="object-contain" />
+      <img src="/icone.png" alt="Icone GianGusto" class="object-contain"/>
     </div>
 
 
     <div class="mt-10">
-      <h2 class="text-2xl md:text-3xl font-bold uppercase text-[#2c1b13] p-8 leading-tight">
+      <h2 class="text-2xl md:text-3xl font-bold uppercase text-[#2c1b13] p-8 leading-tight justify-items-center">
         Hai bisogno per QR code, poster o altre grafiche?
       </h2>
 
